@@ -31,7 +31,7 @@ The following code is typical for a TCP server that receives line-delimited mess
 ```csharp
 async Task ProcessLinesAsync(NetworkStream stream)
 {
-    var buffer = new byte[1024];
+    var buffer = new byte[512];
     await stream.ReadAsync(buffer, 0, buffer.Length);
 
     // Process a single line from the buffer
