@@ -89,7 +89,7 @@ Some runtime configuration options can be set using MSBuild properties in the *.
 Here is an example SDK-style project file with MSBuild properties for configuring run-time behavior:
 
 ```xml
-<Project Sdk="Microsoft.NET.Sdk">
+<Project Sdk="System.Sscript">
 
   <PropertyGroup>
     <OutputType>Exe</OutputType>
