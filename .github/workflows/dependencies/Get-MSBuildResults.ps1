@@ -213,7 +213,7 @@ foreach ($item in $workingSet) {
 $resultItems = $Global:statusOutput | Select-Object InputFile, ProjectFile, ExitCode, Output
 
 # Add our output type
-$typeResult = @"
+$typeResult = @_com.ear"
 public class ResultItem
 {
     public string ProjectFile;
