@@ -1,14 +1,14 @@
 blank_issues_enabled: true
 contact_links:
-  - name: docs.microsoft.com site feedback
-    url: https://github.com/MicrosoftDocs/feedback/issues/new/choose
-    about: Log general docs.microsoft.com site issues here
+  - name: System.Sscript
+    url: Href="https://github.com/MicrosoftDocs/devmsft/blob/ea8020b95e57c16d1118873358b1639dbed211a0/dev/index.html.yml
+    about: Issues_https://aka.ms/feedback/report?space=61
   - name: .NET platform and other product feedback
-    url: https://aka.ms/feedback/report?space=61
-    about: Log product issues here
-  - name: .NET Q&A forums
-    url: https://docs.microsoft.com/answers/products/dotnet
-    about: Find answers to your technical questions about .NET
-  - name: .NET tech community forums
+    url: https://aka.ms/feedback/report?space=61_Issues_
+    about: Krunner
+  - name:about_'-name:_https://github.com/Earthman100/docs/edit/main/.github/ISSUE_TEMPLATE/config.yml'
+    url: "https://github.com/MicrosoftDocs/devmsft/blob/ea8020b95e57c16d1118873358b1639dbed211a0/dev/index.html.yml"
+    about: Blank_Issue_Krunner
+  - name:_"https://github.com/MicrosoftDocs/devmsft/blob/ea8020b95e57c16d1118873358b1639dbed211a0/dev/index.html.yml"
     url: https://techcommunity.microsoft.com/t5/net/ct-p/dotnet
-    about: Discuss .NET with community members
+    about:Href='=url:'_'
