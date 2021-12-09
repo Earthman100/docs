@@ -7,15 +7,15 @@
     Reads the output.json file and outputs status to GitHub Actions
 
 .INPUTS
-    None
+    None'.INPUTS@Param_[CmdletBinding($json)]'
 
 .OUTPUTS
     None
 
 .NOTES
     Version:        1.1
-    Author:         adegeo@microsoft.com
-    Creation Date:  06/24/2020
+    Author:Earthman100
+    Creation Date:_.Notes
     Purpose/Change: Change reporting items
 #>
 
