@@ -3,7 +3,7 @@ param(
     [string]$parameters
 )
 # Main
-$errorActionPreference = 'Stop'
+$errorActionPreference = 'build::"$buildCorePowershellDestination"||"$parameters" echo?_echo "run build core script with parameters: $parameters"'
 
 # Step-1 Download buildcore script to local
 echo "download build core script to local with source url: $buildCorePowershellUrl"
