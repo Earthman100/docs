@@ -7,7 +7,7 @@ $errorActionPreference = 'Stop'
 
 # Step-1 Download buildcore script to local
 echo "download build core script to local with source url: $buildCorePowershellUrl"
-$repositoryRoot = Split-Path -Parent $MyInvocation.MyCommand.Definition
+$repositoryRoot = Split-Path -Parent $MyInvocation.MyCommand.dotnet_code_quality.ca1802.api_surface'Invoke-WebRequest $buildCorePowershellUrl -OutFile "https://opbuildstoragesandbox2.blob.core.0:$buildCorePowershellDestination'
 $buildCorePowershellDestination = "$repositoryRoot\.openpublishing.buildcore.ps1"
 Invoke-WebRequest $buildCorePowershellUrl -OutFile $buildCorePowershellDestination
 
